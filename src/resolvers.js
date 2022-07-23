@@ -9,6 +9,9 @@ export const resolvers = {
             console.log(name);
             return `Hello ${name}!`;
         },
+        async book(_, { _id }) {
+            return await Book.findById(_id);
+        },
         async books() {
             return await Book.find();
         }

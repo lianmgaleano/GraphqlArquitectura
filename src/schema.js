@@ -5,6 +5,7 @@ const typeDefs = `
     type Query {
         hello: String
         greet(name: String!): String
+        book(_id: ID): Book
         books: [Book]
     }
 

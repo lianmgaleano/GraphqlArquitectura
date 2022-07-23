@@ -23,10 +23,10 @@ const typeDefs = `
     }
 
     input BookInput {
-        title: String!
-        description: String!
-        topic: String!
-        author: String!
+        title: String
+        description: String
+        topic: String
+        author: String
     }
 `;
 
